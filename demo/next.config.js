@@ -1,7 +1,6 @@
 module.exports = {
-  webpack: (config, options) => {
+  webpack: (config) => {
     config.resolve.symlinks = false;
-    console.log('config', config);
     return config;
-  }
-}
+  },
+};

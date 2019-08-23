@@ -1,5 +1,5 @@
 import React from 'react';
-import NonceContext from './NonceContext';
+import { NonceContext } from './NonceContext';
 
 const withNonce = (WrappedComponent) => {
   const WithNonce = (props) => {
