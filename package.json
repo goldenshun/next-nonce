@@ -1,0 +1,35 @@
+{
+  "name": "next-nonce",
+  "version": "0.0.1",
+  "description": "React higher order component that generates nonce values for supporting Content-Security-Policy in Next.js applications.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goldenshun/next-nonce.git"
+  },
+  "keywords": [
+    "react",
+    "next",
+    "security",
+    "nonce",
+    "csp"
+  ],
+  "author": "Sean Connolly",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/goldenshun/next-nonce/issues"
+  },
+  "homepage": "https://github.com/goldenshun/next-nonce#readme",
+  "devDependencies": {
+    "babel-eslint": "8.2.2",
+    "eslint": "5.5.0",
+    "eslint-config-airbnb": "17.1.0",
+    "eslint-plugin-import": "2.14.0",
+    "eslint-plugin-jest": "21.17.0",
+    "eslint-plugin-jsx-a11y": "6.1.1",
+    "eslint-plugin-react": "7.11.1"
+  }
+}
