@@ -4,7 +4,7 @@
   "description": "React higher order component that generates nonce values for supporting Content-Security-Policy in Next.js applications.",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "build": "NODE_ENV=production babel src -d dist"
   },
   "repository": {
     "type": "git",
@@ -24,12 +24,16 @@
   },
   "homepage": "https://github.com/goldenshun/next-nonce#readme",
   "devDependencies": {
-    "babel-eslint": "8.2.2",
-    "eslint": "5.5.0",
-    "eslint-config-airbnb": "17.1.0",
-    "eslint-plugin-import": "2.14.0",
-    "eslint-plugin-jest": "21.17.0",
-    "eslint-plugin-jsx-a11y": "6.1.1",
-    "eslint-plugin-react": "7.11.1"
+    "@babel/cli": "7.5.5",
+    "@babel/core": "7.5.5",
+    "@babel/preset-env": "7.5.5",
+    "@babel/preset-react": "7.0.0",
+    "react": "16.9.0"
+  },
+  "dependencies": {
+    "uuid": "3.3.3"
+  },
+  "peerDependencies": {
+    "react": "16.0.0^"
   }
 }
