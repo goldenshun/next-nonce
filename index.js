@@ -1,3 +1,6 @@
 const withNonce = require('./dist/withNonce');
+const { useNonce } = require('./dist/NonceContext');
 
-module.exports = { withNonce: withNonce.default };
+console.log('index.js useNonce', useNonce);
+
+module.exports = { withNonce: withNonce.default, useNonce };
