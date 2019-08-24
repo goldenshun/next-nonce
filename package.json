@@ -2,9 +2,9 @@
   "name": "next-nonce",
   "version": "0.0.1",
   "description": "React higher order component that generates nonce values for supporting Content-Security-Policy in Next.js applications.",
-  "main": "dist/index.js",
+  "main": "index.js",
   "scripts": {
-    "build": "rollup -c"
+    "build": "NODE_ENV=production babel src -d dist"
   },
   "repository": {
     "type": "git",
@@ -35,10 +35,7 @@
     "eslint-plugin-jest": "21.17.0",
     "eslint-plugin-jsx-a11y": "6.1.1",
     "eslint-plugin-react": "7.11.1",
-    "react": "16.9.0",
-    "rollup": "1.20.1",
-    "rollup-plugin-babel": "4.3.3",
-    "rollup-plugin-node-resolve": "5.2.0"
+    "react": "16.9.0"
   },
   "dependencies": {
     "uuid": "3.3.3"
