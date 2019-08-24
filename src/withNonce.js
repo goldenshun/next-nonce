@@ -6,7 +6,7 @@ const withNonce = (WrappedComponent) => {
     const { nonce } = props;
 
     return (
-      <NonceContext.Provider value={nonce}>
+      <NonceContext.Provider value={{ nonce }}>
         <WrappedComponent {...props} />
       </NonceContext.Provider>
     );

@@ -2,8 +2,8 @@ import Head from 'next/head';
 import { useNonce } from 'next-nonce';
 
 const ComponentWithScript = () => {
-  console.log('useNonce', useNonce);
   const { nonce } = useNonce();
+  console.log('nonce', nonce);
   return (
     <Head>
       <script
