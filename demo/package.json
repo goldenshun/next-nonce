@@ -18,7 +18,7 @@
   "license": "MIT",
   "homepage": "https://github.com/goldenshun/next-nonce-demo#readme",
   "dependencies": {
-    "next": "9.0.2",
+    "next": "9.3.3",
     "next-nonce": "file:..",
     "react": "16.9.0",
     "react-dom": "16.9.0"
